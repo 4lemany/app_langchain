@@ -3,7 +3,7 @@ import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.agents import create_tool_calling_agent, AgentExecutor
+from langchain_classic.agents import create_tool_calling_agent, AgentExecutor
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.runnables import RunnableLambda
@@ -118,3 +118,4 @@ if user_input:
                 st.write(response["output"])
             except Exception as e:
                 st.error(f"Ocurrió un error en la ejecución: {e}")
+
