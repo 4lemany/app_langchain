@@ -1,0 +1,14 @@
+# Framework web
+streamlit
+
+# Core de LangChain y LangGraph
+langchain
+langgraph
+langchain-classic
+
+# Integración con Google (Gemini)
+langchain-google-genai
+
+# Herramientas de la comunidad y utilidades
+langchain-community
+duckduckgo-search
